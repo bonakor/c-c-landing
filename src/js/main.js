@@ -1,8 +1,6 @@
 (function($){
-  $('.video').modaal({
-    type: 'video',
+  $('.inline').modaal({
     start_open: true,
-    fullscren: true,
   });
 })(jQuery);
 

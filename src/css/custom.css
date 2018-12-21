@@ -8,13 +8,35 @@ html {
     width: 100%;
     height: 100%;
 }
-
-figure {
-    margin: 0;
+.video-bordure {
     position: absolute;
     right: 0;
-    width: 80vw;
-    height: 70vh;
+    text-align: right;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.neige {
+    margin: 0;
+    right: 0;
+    width: 80%;
+    max-width: 80vw;
+}
+.voeux {
+    max-width: 60vw;
+    height: auto;
+    max-height: 80vh;
+    object-fit: cover;
+}
+.modaal-container {
+    background: none;
+    box-shadow: none;
+}
+.modaal-content-container {
+    padding: 0;
+    text-align: center;
 }
 
 main {
@@ -29,14 +51,17 @@ main {
 .gauche {
     height: 35vh;
     width: .2rem;
-    left: 18vw;
+    left: 31%;
 }
 
 .bas {
     height: .2rem;
     width: 40vw;
     right: 0;
-    top: 72vh;
+    position: relative;
+    margin: 2rem 0;
+    text-align: right;
+    margin-right: 0;
 }
 footer {
     height: 10vh;
